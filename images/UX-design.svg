@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="62px" height="62px" viewBox="0 0 62 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 57.1 (83088) - https://sketch.com -->
+    <title>UX design</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UX-design" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="Group">
+                <path d="M61,36 L50,36 L50,25 C50,24.448 49.553,24 49,24 L46,24 L46,1 C46,0.448 45.553,0 45,0 L1,0 C0.447,0 0,0.448 0,1 L0,35 C0,35.552 0.447,36 1,36 L10,36 L10,34 L2,34 L2,10 L44,10 L44,34 L18,34 L18,36 L24,36 L24,49 C24,49.552 24.447,50 25,50 L36,50 L36,61 C36,61.552 36.447,62 37,62 L61,62 C61.553,62 62,61.552 62,61 L62,37 C62,36.448 61.553,36 61,36 Z M50,49 L50,42 L56,42 L56,56 L42,56 L42,50 L49,50 C49.553,50 50,49.552 50,49 Z M2,8 L2,2 L44,2 L44,8 L2,8 Z M26,36 L45,36 C45.553,36 46,35.552 46,35 L46,26 L48,26 L48,48 L26,48 L26,36 Z M60,60 L38,60 L38,50 L40,50 L40,57 C40,57.552 40.447,58 41,58 L57,58 C57.553,58 58,57.552 58,57 L58,41 C58,40.448 57.553,40 57,40 L50,40 L50,38 L60,38 L60,60 Z" id="Shape"></path>
+                <rect id="Rectangle" x="4" y="4" width="2" height="2"></rect>
+                <rect id="Rectangle" x="8" y="4" width="2" height="2"></rect>
+                <rect id="Rectangle" x="12" y="4" width="2" height="2"></rect>
+                <rect id="Rectangle" x="16" y="4" width="2" height="2"></rect>
+                <path d="M24,31 L24,13 C24,12.448 23.553,12 23,12 L5,12 C4.447,12 4,12.448 4,13 L4,31 C4,31.552 4.447,32 5,32 L23,32 C23.553,32 24,31.552 24,31 Z M12.586,22 L6,28.586 L6,15.414 L12.586,22 Z M7.414,14 L20.586,14 L14,20.586 L7.414,14 Z M14,23.414 L20.586,30 L7.414,30 L14,23.414 Z M15.414,22 L22,15.414 L22,28.586 L15.414,22 Z" id="Shape"></path>
+                <rect id="Rectangle" x="26" y="18" width="16" height="2"></rect>
+                <rect id="Rectangle" x="26" y="22" width="16" height="2"></rect>
+                <rect id="Rectangle" x="26" y="26" width="16" height="2"></rect>
+                <rect id="Rectangle" x="26" y="30" width="16" height="2"></rect>
+                <path d="M13.707,33.293 C13.422,33.006 12.992,32.923 12.617,33.076 C12.243,33.231 12,33.596 12,34 L12,45 C12,45.404 12.243,45.769 12.617,45.924 C12.741,45.975 12.871,46 13,46 C13.26,46 13.516,45.898 13.707,45.707 L16.414,43 L21,43 C21.404,43 21.77,42.756 21.924,42.383 C22.079,42.009 21.993,41.579 21.707,41.293 L13.707,33.293 Z M16,41 C15.734,41 15.48,41.105 15.293,41.293 L14,42.586 L14,36.414 L18.586,41 L16,41 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
