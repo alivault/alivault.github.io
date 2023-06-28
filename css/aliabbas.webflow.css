@@ -88,22 +88,6 @@ figcaption {
   font-size: 15px;
 }
 
-.navbar-v1 {
-  z-index: 10;
-  background-color: rgba(0, 0, 0, 0);
-  padding: 20px 30px;
-  position: relative;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
-}
-
-.navbar-v1.absolute {
-  background-color: #fff;
-  position: absolute;
-}
-
 .navlink-v1 {
   color: #000;
   text-align: center;
@@ -167,11 +151,6 @@ figcaption {
 
 .section.project-hero.tronchat {
   background-image: linear-gradient(to top, rgba(59, 109, 255, .88), rgba(59, 109, 255, .01)), url('../images/tronchat-main.jpg');
-  background-position: 0 0, 50%;
-}
-
-.section.project-hero.toketv {
-  background-image: linear-gradient(to top, rgba(71, 215, 172, .6) 18%, rgba(71, 215, 172, .01) 56%), url('../images/toke-tv-main-image.jpg');
   background-position: 0 0, 50%;
 }
 
@@ -253,10 +232,6 @@ figcaption {
   display: flex;
 }
 
-.container.hide {
-  display: none;
-}
-
 .hero-intro {
   text-align: center;
   margin-bottom: 25px;
@@ -315,10 +290,6 @@ figcaption {
   margin-right: 20px;
 }
 
-.hero-title.last-word {
-  margin-right: 0;
-}
-
 .hero-content-wrapper {
   z-index: 1;
   width: 100%;
@@ -367,27 +338,8 @@ figcaption {
   background-image: none;
 }
 
-.button.hero {
-  margin-right: 20px;
-}
-
 .button.show-me-more {
   text-transform: uppercase;
-}
-
-.button.raise-z {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  transform: translate3d(0, 0, 20px);
-}
-
-.button.raise-z:hover {
-  transform: translate(0, -2px);
-}
-
-.button.raise-z:active {
-  transform: translate(0);
 }
 
 .button.mt20 {
@@ -398,13 +350,6 @@ figcaption {
 .section-title {
   text-align: center;
   margin: 0 auto 10px;
-}
-
-.section-title.tm20 {
-  margin-top: 60px;
-  margin-bottom: 20px;
-  font-size: 21px;
-  line-height: 25px;
 }
 
 .hero-title-wrapper {
@@ -418,10 +363,6 @@ figcaption {
   max-width: 60ch;
   text-align: center;
   margin: 0 auto 40px;
-}
-
-.section-desc.rel {
-  position: relative;
 }
 
 .form-block {
@@ -510,13 +451,6 @@ figcaption {
   box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
 }
 
-.case-study-preview.toketv {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .35), rgba(0, 0, 0, 0) 35%), url('../images/toke-tv-preview.jpg');
-  background-position: 0 0, 50%;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
-}
-
 .case-study-preview.caligenix {
   background-color: #fff;
   background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, .01) 50%), url('../images/caligenix-preview.jpg'), linear-gradient(#fff, #fff);
@@ -562,24 +496,6 @@ figcaption {
 .form {
   flex-direction: column;
   display: flex;
-}
-
-.close-button {
-  opacity: .5;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  margin-right: 30px;
-  padding: 10px;
-  font-size: 50px;
-  text-decoration: none;
-  display: flex;
-  position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: auto;
-  right: 0%;
 }
 
 .hero-video-transform-wrapper {
@@ -823,24 +739,6 @@ figcaption {
   overflow: hidden;
 }
 
-.column.toketv {
-  color: #fff;
-  background-color: #3fbd98;
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/toke-tv-pattern.jpg');
-  background-position: 0 0, 50%;
-  background-size: auto, contain;
-  flex: 0 33%;
-}
-
-.column.toketv-logo-bg {
-  background-image: linear-gradient(rgba(0, 0, 0, .25), rgba(0, 0, 0, .25)), url('../images/toke-tv-pattern.jpg');
-  background-position: 0 0, 50%;
-  background-repeat: repeat, repeat;
-  background-size: auto, 500px;
-  flex: 1;
-  align-items: center;
-}
-
 .column._33 {
   flex: 0 33%;
 }
@@ -851,21 +749,11 @@ figcaption {
   line-height: 1.4;
 }
 
-.project-section-heading.second-heading {
-  margin-top: 40px;
-}
-
 .deliverables {
   border-left: 1px solid rgba(255, 255, 255, .7);
   margin-bottom: 0;
   padding-left: 20px;
   font-weight: 400;
-}
-
-.website-link {
-  color: #fff;
-  font-weight: 400;
-  display: block;
 }
 
 .project-subtitle {
@@ -885,17 +773,9 @@ figcaption {
   display: flex;
 }
 
-.subcolumn-parent._33 {
-  flex: 0 33%;
-}
-
 .row {
   min-height: 80vh;
   display: flex;
-}
-
-.row.add-perspective {
-  perspective: 2000px;
 }
 
 .large-image {
@@ -909,19 +789,6 @@ figcaption {
 .large-image.tronchat-photography {
   background-image: url('../images/tronchat-photo-2.jpg');
   background-position: 50%;
-  justify-content: center;
-  align-items: center;
-  padding: 60px;
-  display: flex;
-}
-
-.large-image.toke-tv-photography {
-  height: 80vh;
-  background-image: linear-gradient(rgba(71, 215, 172, .1), rgba(71, 215, 172, .1)), url('../images/toke-tv-brand-photo-2.jpg');
-  background-position: 0 0, 50%;
-  background-repeat: repeat, no-repeat;
-  background-size: auto, cover;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 60px;
@@ -956,25 +823,6 @@ figcaption {
 
 .wipe.tronchat {
   background-color: #3b6dff;
-}
-
-.wipe.toketv {
-  background-color: #47d7ac;
-}
-
-.portfolio-link-wrapper {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform-origin: 50% 0;
-  border-radius: 5px;
-  transition: box-shadow .2s;
-  position: relative;
-  overflow: hidden;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .24), 0 1px 3px rgba(0, 0, 0, .12);
-}
-
-.portfolio-link-wrapper:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
 }
 
 .loader {
@@ -1036,14 +884,6 @@ figcaption {
   padding: 60px;
 }
 
-.subcolumn.toketv-image-1 {
-  min-height: 500px;
-  background-image: url('../images/toke-tv-brand-image-1.jpg');
-  background-position: 50%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
 .tap-animation {
   z-index: 1;
   width: 120px;
@@ -1097,11 +937,6 @@ figcaption {
   left: 0%;
   right: 0%;
   overflow: hidden;
-}
-
-.case-study-info.toketv {
-  color: #fff;
-  background-color: rgba(71, 215, 172, .5);
 }
 
 .case-study-info.tronchat {
@@ -1201,14 +1036,6 @@ figcaption {
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-}
-
-.about-image {
-  background-image: url('../images/ali.jpg');
-  background-position: 0 20%;
-  background-repeat: no-repeat;
-  background-size: auto 118%;
-  flex: 0 50%;
 }
 
 .about-me-link {
@@ -1386,12 +1213,6 @@ figcaption {
   align-self: stretch;
 }
 
-.details {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 40px;
-}
-
 .color-box {
   width: 150px;
   height: 150px;
@@ -1449,11 +1270,6 @@ figcaption {
   background-color: #fff;
   flex-direction: column;
   text-decoration: none;
-}
-
-.portfolio-image.raise {
-  transform-style: preserve-3d;
-  transform: translate3d(0, 0, 30px);
 }
 
 .section-desc-2 {
@@ -1540,15 +1356,6 @@ figcaption {
   transform: translate3d(0, 0, -1px);
 }
 
-.brand-image-wrapper {
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  position: relative;
-}
-
 .brand-image {
   object-position: 50% 50%;
   border-radius: 20px;
@@ -1557,10 +1364,6 @@ figcaption {
 .body.perspective {
   perspective: 2000px;
   transform: none;
-}
-
-.bg {
-  background-image: linear-gradient(150deg, rgba(76, 149, 229, .47), rgba(70, 155, 235, .45) 34%, rgba(221, 233, 245, 0) 49%);
 }
 
 .overlay {
@@ -1604,23 +1407,6 @@ figcaption {
   background-image: linear-gradient(100deg, #fff, rgba(255, 255, 255, .01));
 }
 
-.slider {
-  min-height: 42vh;
-  background-color: rgba(0, 0, 0, 0);
-  margin-bottom: 45px;
-}
-
-.slide-nav {
-  padding-top: 15px;
-  font-size: 12px;
-  bottom: -50px;
-}
-
-.arrow {
-  color: #333;
-  margin: 5%;
-}
-
 .your-brand-here {
   width: 100%;
   height: 100%;
@@ -1659,18 +1445,10 @@ figcaption {
   flex: none;
 }
 
-.color-swipe._2 {
-  background-color: #fff;
-}
-
 .color-swipe-2 {
   width: 100vw;
   background-color: #fff;
   flex: none;
-}
-
-.color-swipe-2._2 {
-  background-color: #fff;
 }
 
 .your-website-text {
@@ -1707,37 +1485,8 @@ figcaption {
   transform: translate(0);
 }
 
-.button-anchor.secondary {
-  color: #000;
-  background-color: #fff;
-  background-image: none;
-}
-
 .button-anchor.hero {
   margin-right: 20px;
-}
-
-.button-anchor.show-me-more {
-  text-transform: uppercase;
-}
-
-.button-anchor.raise-z {
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
-  transform: translate3d(0, 0, 20px);
-}
-
-.button-anchor.raise-z:hover {
-  transform: translate(0, -2px);
-}
-
-.button-anchor.raise-z:active {
-  transform: translate(0);
-}
-
-.button-anchor.mt20 {
-  margin-top: 20px;
 }
 
 .paragraph {
@@ -1759,61 +1508,12 @@ figcaption {
   overflow: visible;
 }
 
-.detail {
-  padding: 20px 25px;
-}
-
-.sub-title {
-  color: #f72d2d;
-  text-align: center;
-  padding-top: 6px;
-  padding-bottom: 2px;
-}
-
-.title-link {
-  color: #000;
-  margin-left: auto;
-  margin-right: auto;
-  text-decoration: none;
-  display: block;
-}
-
 .picture {
   width: 33vw;
   justify-content: center;
   align-items: center;
   display: flex;
   overflow: hidden;
-}
-
-.picture.t-6 {
-  background-image: url('../images/contact-header.jpg');
-  background-size: 800px;
-}
-
-.picture.t-5 {
-  background-image: url('../images/img03.jpg');
-  background-size: 960px;
-}
-
-.picture.t-4 {
-  background-image: url('../images/img1.jpg');
-  background-size: 1024px;
-}
-
-.picture.t-2 {
-  background-image: url('../images/img01.jpg');
-  background-size: 960px;
-}
-
-.picture.t-1 {
-  background-image: url('../images/Img10.jpg');
-  background-size: 351px;
-}
-
-.picture.t-3 {
-  background-image: url('../images/mount.jpg');
-  background-size: 800px;
 }
 
 .picture.hide {
@@ -1854,10 +1554,6 @@ figcaption {
 .raise-on-hover {
   width: 100%;
   height: 100%;
-}
-
-.embed-block {
-  display: none;
 }
 
 html.w-mod-js [data-ix="fade-in-on-load"], html.w-mod-js [data-ix="fade-in-on-load-2"], html.w-mod-js [data-ix="fade-in-on-load-3"], html.w-mod-js [data-ix="fade-in-on-load-4"], html.w-mod-js [data-ix="fade-in-on-load-5"] {
@@ -1907,17 +1603,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     margin-right: 0;
     padding-top: 20px;
     padding-bottom: 20px;
-  }
-
-  .navlink-v1.mobile {
-    align-self: stretch;
-    margin-bottom: 10px;
-    margin-right: 0;
-    transition: background-color .2s;
-  }
-
-  .navlink-v1.mobile:active {
-    transform: none;
   }
 
   .section.scroll-interaction {
@@ -1991,13 +1676,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     box-shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 1px 3px rgba(0, 0, 0, .22);
   }
 
-  .case-study-preview.toketv {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, .35) 35%, rgba(0, 0, 0, .01)), url('../images/toke-tv-preview_1.jpg');
-    background-position: 0 0, 50%;
-    background-repeat: repeat, no-repeat;
-    background-size: auto, cover;
-  }
-
   .case-study-preview.caligenix {
     background-image: linear-gradient(to top, #fff 36%, rgba(255, 255, 255, .01) 78%), url('../images/caligenix-preview.jpg');
     background-position: 0 0, 50%;
@@ -2014,11 +1692,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .hero-video {
     border-radius: 4px;
-  }
-
-  .close-button {
-    margin-top: 20px;
-    margin-right: 20px;
   }
 
   .hero-video-transform-wrapper {
@@ -2055,7 +1728,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     height: auto;
   }
 
-  .column.tronchat-logo-bg, .column.ui-animation-video-parent, .column.toketv-logo-bg {
+  .column.tronchat-logo-bg, .column.ui-animation-video-parent {
     flex: 0 auto;
   }
 
@@ -2068,7 +1741,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     flex-direction: column;
   }
 
-  .row.reverse, .row.add-perspective {
+  .row.reverse {
     flex-direction: column-reverse;
   }
 
@@ -2080,22 +1753,11 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     height: 390px;
   }
 
-  .large-image.toke-tv-photography {
-    height: 480px;
-  }
-
-  .portfolio-link-wrapper {
-    width: auto;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    transform-origin: 50% 0;
-  }
-
   ._100-vh-parent {
     min-height: 100%;
   }
 
-  .subcolumn, .subcolumn.tronchat-image-1, .subcolumn.toketv-image-1 {
+  .subcolumn, .subcolumn.tronchat-image-1 {
     flex: 0 auto;
   }
 
@@ -2108,19 +1770,11 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     font-weight: 400;
   }
 
-  .case-study-desc.white {
-    color: #fff;
-  }
-
   .view-case-study-link {
     color: #1c7ad8;
     border-style: none;
     padding: 0;
     font-weight: 700;
-  }
-
-  .view-case-study-link.white {
-    color: #fff;
   }
 
   .spinner {
@@ -2239,26 +1893,12 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     height: auto;
   }
 
-  .slider {
-    align-items: center;
-    margin-bottom: 61px;
-    display: flex;
-  }
-
-  .arrow {
-    margin: 2%;
-  }
-
   .your-brand-here {
     font-size: 1.5em;
   }
 
   .your-website-text {
     font-size: 23px;
-  }
-
-  .button-anchor.show-me-more:hover {
-    transform: none;
   }
 
   .picture {
@@ -2281,10 +1921,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   h4 {
     font-size: 1em;
-  }
-
-  .navbar-v1 {
-    padding: 10px 20px;
   }
 
   .navlink-v1 {
@@ -2336,10 +1972,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     font-size: 2em;
   }
 
-  .hero-title.last-word {
-    margin-bottom: 0;
-  }
-
   .hero-content-wrapper {
     grid-template-columns: 1fr;
     grid-template-areas: ".";
@@ -2365,11 +1997,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     background-position: 0 0, 50% 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, contain;
-  }
-
-  .close-button {
-    margin-top: 15px;
-    margin-right: 10px;
   }
 
   .hero-video-transform-wrapper {
@@ -2401,7 +2028,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     height: 400px;
   }
 
-  .column.tronchat-logo-bg, .column.toketv-logo-bg {
+  .column.tronchat-logo-bg {
     padding: 100px;
   }
 
@@ -2418,11 +2045,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     padding: 100px;
   }
 
-  .large-image.toke-tv-photography {
-    height: 370px;
-    padding: 100px;
-  }
-
   ._100-vh-parent {
     min-height: 100%;
   }
@@ -2434,10 +2056,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .subcolumn {
     padding: 60px 20px;
-  }
-
-  .subcolumn.toketv-image-1 {
-    min-height: 400px;
   }
 
   .spinner {
@@ -2454,12 +2072,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     min-width: 100%;
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .about-image {
-    width: 100%;
-    height: 530px;
-    flex: 0 auto;
   }
 
   .navbar {
@@ -2576,38 +2188,8 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     height: 100vh;
   }
 
-  .slider {
-    margin-bottom: 46px;
-  }
-
-  .slide-nav {
-    font-size: 10px;
-    bottom: -26px;
-  }
-
-  .arrow {
-    width: 93px;
-    height: 60px;
-    margin-bottom: 0%;
-    top: auto;
-    bottom: -10%;
-    left: 0%;
-    right: 0%;
-  }
-
-  .arrow.right {
-    top: auto;
-    left: auto;
-    right: 0%;
-  }
-
   .your-brand-here {
     font-size: 1.2em;
-  }
-
-  .page-fader {
-    z-index: 8;
-    display: none;
   }
 
   .color-swipe, .color-swipe-2 {
@@ -2625,11 +2207,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 }
 
 @media screen and (max-width: 479px) {
-  .navbar-v1 {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
   .navlink-v1 {
     flex: 1;
   }
@@ -2707,10 +2284,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     align-items: flex-start;
   }
 
-  .close-button {
-    margin-right: 0;
-  }
-
   .hero-video-transform-wrapper {
     margin-bottom: 350px;
     transform: scale(.9)perspective(2000px)rotateX(33deg)rotateY(0)rotateZ(0);
@@ -2734,7 +2307,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     padding-bottom: 40px;
   }
 
-  .column.tronchat-logo-bg, .column.toketv-logo-bg {
+  .column.tronchat-logo-bg {
     padding: 60px;
   }
 
@@ -2747,11 +2320,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .large-image.tronchat-photography {
-    padding: 60px;
-  }
-
-  .large-image.toke-tv-photography {
-    height: 265px;
     padding: 60px;
   }
 
@@ -2770,10 +2338,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .case-study-list {
     grid-template-rows: minmax(350px, 1fr) minmax(350px, 1fr) minmax(350px, 1fr);
-  }
-
-  .about-image {
-    height: 355px;
   }
 
   .navlink {
@@ -2821,24 +2385,6 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .background {
     height: 75vh;
-  }
-
-  .mask {
-    height: 170px;
-  }
-
-  .slider {
-    height: auto;
-    min-height: auto;
-  }
-
-  .slide-nav {
-    font-size: 10px;
-    bottom: -100px;
-  }
-
-  .arrow, .arrow.right {
-    bottom: -39%;
   }
 
   .your-brand-here {
