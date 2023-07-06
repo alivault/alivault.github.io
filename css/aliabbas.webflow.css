@@ -9,7 +9,7 @@
 
 body {
   height: 100%;
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   font-family: Proxima Nova, sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -51,17 +51,17 @@ h5 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Open Sans, sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 700;
 }
 
 h6 {
-  color: rgba(92, 92, 92, .87);
+  color: rgba(92, 92, 92, 0.87);
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: Open Sans, sans-serif;
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 700;
 }
 
@@ -137,7 +137,12 @@ figcaption {
 
 .section.project-hero {
   color: #fff;
-  background-image: linear-gradient(to top, rgba(0, 104, 165, .6), rgba(0, 104, 165, .01)), url('../images/caligenix-bg.jpg');
+  background-image: linear-gradient(
+      to top,
+      rgba(0, 104, 165, 0.6),
+      rgba(0, 104, 165, 0.01)
+    ),
+    url('../images/caligenix-bg.jpg');
   background-position: 0 0, 0%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -150,12 +155,21 @@ figcaption {
 }
 
 .section.project-hero.tronchat {
-  background-image: linear-gradient(to top, rgba(59, 109, 255, .88), rgba(59, 109, 255, .01)), url('../images/tronchat-main.jpg');
+  background-image: linear-gradient(
+      to top,
+      rgba(59, 109, 255, 0.88),
+      rgba(59, 109, 255, 0.01)
+    ),
+    url('../images/tronchat-main.jpg');
   background-position: 0 0, 50%;
 }
 
 .section.add-gradient {
-  background-image: linear-gradient(to top, rgba(0, 0, 0, .2), rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .section.contact {
@@ -168,7 +182,12 @@ figcaption {
 }
 
 .section.tronchat {
-  background-image: linear-gradient(to top, rgba(59, 109, 255, .88), rgba(0, 0, 0, 0)), url('../images/tronchat-banner.jpg');
+  background-image: linear-gradient(
+      to top,
+      rgba(59, 109, 255, 0.88),
+      rgba(0, 0, 0, 0)
+    ),
+    url('../images/tronchat-banner.jpg');
   background-position: 0 0, 0%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -215,7 +234,8 @@ figcaption {
   display: flex;
 }
 
-.container.services, .container.project-title-container {
+.container.services,
+.container.project-title-container {
   flex-direction: column;
   align-items: stretch;
   display: flex;
@@ -241,8 +261,9 @@ figcaption {
 .services-grid {
   grid-column-gap: 20px;
   grid-row-gap: 20px;
-  grid-template: "."
-  / 1fr 1fr 1fr;
+  grid-template:
+    '.'
+    / 1fr 1fr 1fr;
 }
 
 .service-wrapper {
@@ -278,7 +299,7 @@ figcaption {
 }
 
 .service-title.black {
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   text-align: center;
   margin-bottom: 10px;
   font-weight: 700;
@@ -297,9 +318,10 @@ figcaption {
   grid-row-gap: 10px;
   text-align: center;
   flex-direction: column;
-  grid-template: "." 120px
-                 "."
-                 / 1fr 1fr 1fr;
+  grid-template:
+    '.' 120px
+    '.'
+    / 1fr 1fr 1fr;
   align-items: center;
   justify-items: start;
   margin-bottom: 60px;
@@ -317,11 +339,11 @@ figcaption {
   align-items: center;
   margin-right: 0;
   padding: 12px 20px;
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 1;
   text-decoration: none;
-  transition: transform .2s;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, .11), 0 1px 3px rgba(0, 0, 0, .08);
+  transition: transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .button:hover {
@@ -333,7 +355,7 @@ figcaption {
 }
 
 .button.secondary {
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   background-color: #fff;
   background-image: none;
 }
@@ -344,7 +366,7 @@ figcaption {
 
 .button.mt20 {
   margin-top: 20px;
-  font-size: .8em;
+  font-size: 0.8em;
 }
 
 .section-title {
@@ -372,7 +394,8 @@ figcaption {
   margin-left: auto;
   margin-right: auto;
   padding: 20px;
-  box-shadow: 0 -18px 60px -10px rgba(0, 0, 0, .03), 0 30px 60px -30px rgba(0, 0, 0, .3), 0 50px 100px -20px rgba(0, 0, 0, .25);
+  box-shadow: 0 -18px 60px -10px rgba(0, 0, 0, 0.03),
+    0 30px 60px -30px rgba(0, 0, 0, 0.3), 0 50px 100px -20px rgba(0, 0, 0, 0.25);
 }
 
 .success-message {
@@ -385,39 +408,40 @@ figcaption {
 }
 
 .text-field {
-  background-color: rgba(199, 199, 199, .11);
+  background-color: rgba(199, 199, 199, 0.11);
   border: 1px #000;
   border-radius: 5px;
   margin-bottom: 20px;
   font-size: 17px;
   font-weight: 300;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 .text-field:focus {
-  background-color: rgba(199, 199, 199, .2);
+  background-color: rgba(199, 199, 199, 0.2);
   box-shadow: 0 0 0 1px #e4effa;
 }
 
 .text-area {
   min-height: 140px;
-  background-color: rgba(199, 199, 199, .11);
+  background-color: rgba(199, 199, 199, 0.11);
   border: 1px #000;
   border-radius: 5px;
   margin-bottom: 20px;
   font-size: 17px;
   font-weight: 300;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 .text-area:focus {
-  background-color: rgba(199, 199, 199, .2);
+  background-color: rgba(199, 199, 199, 0.2);
   box-shadow: 0 0 0 1px #e4effa;
 }
 
 .footer-content {
-  grid-template: "."
-  / .25fr .75fr;
+  grid-template:
+    '.'
+    / 0.25fr 0.75fr;
   justify-content: space-between;
   align-items: center;
   justify-items: center;
@@ -439,28 +463,30 @@ figcaption {
   align-items: center;
   padding: 40px;
   text-decoration: none;
-  transition: box-shadow .2s;
+  transition: box-shadow 0.2s;
   display: flex;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .24), 0 1px 3px rgba(0, 0, 0, .12);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.24), 0 1px 3px rgba(0, 0, 0, 0.12);
 }
 
 .case-study-preview:hover {
   transform: none;
-  box-shadow: 0 14px 28px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
 .case-study-preview.caligenix {
   background-color: #fff;
-  background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, .01) 50%), url('../images/caligenix-preview.jpg'), linear-gradient(#fff, #fff);
+  background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.01) 50%),
+    url('../images/caligenix-preview.jpg'), linear-gradient(#fff, #fff);
   background-position: 0 0, 50% 30%, 0 0;
   background-repeat: repeat, no-repeat, repeat;
   background-size: auto, contain, auto;
 }
 
 .case-study-preview.tronchat {
-  background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, .01) 60%), url('../images/tronchat-preview.jpg');
+  background-image: linear-gradient(to top, #fff, rgba(255, 255, 255, 0.01) 60%),
+    url('../images/tronchat-preview.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -479,7 +505,8 @@ figcaption {
 
 .hero-video {
   border-radius: 5px;
-  box-shadow: 0 60px 100px -20px rgba(0, 0, 0, .25), 0 14px 28px rgba(0, 0, 0, .25);
+  box-shadow: 0 60px 100px -20px rgba(0, 0, 0, 0.25),
+    0 14px 28px rgba(0, 0, 0, 0.25);
 }
 
 .hero-buttons-wrapper {
@@ -489,7 +516,8 @@ figcaption {
   display: flex;
 }
 
-.hero-video-scroll-wrapper, .hero-video-page-load-wrapper {
+.hero-video-scroll-wrapper,
+.hero-video-page-load-wrapper {
   justify-content: center;
 }
 
@@ -502,11 +530,11 @@ figcaption {
   transform-origin: 50% 0;
   transform-style: preserve-3d;
   justify-content: center;
-  transform: scale(.7)perspective(2000px)rotateX(51deg)rotateY(0)rotateZ(0);
+  transform: scale(0.7) perspective(2000px) rotateX(51deg) rotateY(0) rotateZ(0);
 }
 
 .scroll-tip {
-  opacity: .8;
+  opacity: 0.8;
   color: #000;
   flex-direction: column;
   align-self: flex-end;
@@ -549,21 +577,24 @@ figcaption {
 .card-front.identity {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/branding.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/branding.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
 
 .card-front.frontend {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/front-end.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/front-end.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
 
 .card-front.uxui {
-  background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url('../images/uidesign.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/uidesign.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -585,13 +616,13 @@ figcaption {
   bottom: 0%;
   left: 0%;
   right: 0%;
-  transform: rotateX(0)rotateY(180deg)rotateZ(0);
+  transform: rotateX(0) rotateY(180deg) rotateZ(0);
 }
 
 .service-desc {
   text-align: center;
   margin-bottom: 20px;
-  font-size: .9em;
+  font-size: 0.9em;
   font-weight: 300;
 }
 
@@ -604,7 +635,7 @@ figcaption {
   left: 0%;
   right: 0%;
   transform: none;
-  box-shadow: 1px 0 2px rgba(0, 0, 0, .12), 0 5px 9px rgba(0, 0, 0, .24);
+  box-shadow: 1px 0 2px rgba(0, 0, 0, 0.12), 0 5px 9px rgba(0, 0, 0, 0.24);
 }
 
 .submit-button {
@@ -617,9 +648,9 @@ figcaption {
   font-weight: 300;
   line-height: 1;
   text-decoration: none;
-  transition: all .2s;
+  transition: all 0.2s;
   display: flex;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, .11), 0 1px 3px rgba(0, 0, 0, .08);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .submit-button:hover {
@@ -647,15 +678,15 @@ figcaption {
   padding: 29px 40px 0;
   font-size: 2em;
   line-height: 1;
-  transition: background-color .2s;
+  transition: background-color 0.2s;
 }
 
 .down-arrow:hover {
-  background-color: rgba(255, 255, 255, .1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .down-arrow:active {
-  background-color: rgba(255, 255, 255, .2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .down-arrow.center {
@@ -690,7 +721,11 @@ figcaption {
 }
 
 .column.caligenix-logo-background {
-  background-image: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url('../images/dna-1.jpg');
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url('../images/dna-1.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -725,7 +760,11 @@ figcaption {
 }
 
 .column.tronchat-logo-bg {
-  background-image: linear-gradient(rgba(59, 109, 255, .9), rgba(59, 109, 255, .9)), url('../images/tronchat-mesh-bg.jpg');
+  background-image: linear-gradient(
+      rgba(59, 109, 255, 0.9),
+      rgba(59, 109, 255, 0.9)
+    ),
+    url('../images/tronchat-mesh-bg.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -750,7 +789,7 @@ figcaption {
 }
 
 .deliverables {
-  border-left: 1px solid rgba(255, 255, 255, .7);
+  border-left: 1px solid rgba(255, 255, 255, 0.7);
   margin-bottom: 0;
   padding-left: 20px;
   font-weight: 400;
@@ -800,7 +839,8 @@ figcaption {
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  box-shadow: 0 60px 100px -20px rgba(0, 0, 0, .25), 0 14px 28px rgba(0, 0, 0, .25);
+  box-shadow: 0 60px 100px -20px rgba(0, 0, 0, 0.25),
+    0 14px 28px rgba(0, 0, 0, 0.25);
 }
 
 .wipe {
@@ -852,7 +892,7 @@ figcaption {
 .tronchat-video-2 {
   max-width: 375px;
   display: flex;
-  transform: scale(.879);
+  transform: scale(0.879);
 }
 
 .frame-wrapper {
@@ -879,7 +919,7 @@ figcaption {
 }
 
 .subcolumn.tronchat-image-1 {
-  background-color: rgba(52, 52, 72, .29);
+  background-color: rgba(52, 52, 72, 0.29);
   flex: 1;
   padding: 60px;
 }
@@ -909,13 +949,14 @@ figcaption {
   border-radius: 50px;
   padding: 15px 20px;
   line-height: 1;
-  transition: box-shadow .2s cubic-bezier(.215, .61, .355, 1), background-color .2s cubic-bezier(.215, .61, .355, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.215, 0.61, 0.355, 1),
+    background-color 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 
 .view-case-study-link:hover {
   color: #1d2931;
   background-color: #f6f9fc;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, .25), 0 14px 40px rgba(0, 0, 0, .22);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.25), 0 14px 40px rgba(0, 0, 0, 0.22);
 }
 
 .view-case-study-link:active {
@@ -924,7 +965,7 @@ figcaption {
 
 .case-study-info {
   z-index: 1;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   flex-direction: column;
   justify-content: center;
@@ -941,12 +982,12 @@ figcaption {
 
 .case-study-info.tronchat {
   color: #fff;
-  background-color: rgba(59, 109, 255, .5);
+  background-color: rgba(59, 109, 255, 0.5);
 }
 
 .case-study-info.caligenix {
   color: #fff;
-  background-color: rgba(0, 104, 165, .5);
+  background-color: rgba(0, 104, 165, 0.5);
 }
 
 .case-study-logo {
@@ -956,7 +997,7 @@ figcaption {
 
 .case-study-info-mobile {
   z-index: 1;
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 5px;
   flex-direction: column;
   justify-content: center;
@@ -1058,7 +1099,7 @@ figcaption {
   margin-left: 10px;
   margin-right: 10px;
   padding: 10px;
-  transition: transform .2s;
+  transition: transform 0.2s;
   display: flex;
 }
 
@@ -1090,12 +1131,12 @@ figcaption {
   z-index: 11;
   align-items: center;
   margin-bottom: 30px;
-  transition: transform .2s;
+  transition: transform 0.2s;
   display: flex;
 }
 
 .brand:active {
-  transform: scale(.95);
+  transform: scale(0.95);
 }
 
 .brand.w--current {
@@ -1119,7 +1160,7 @@ figcaption {
 }
 
 .nav-link {
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-right: 20px;
@@ -1128,11 +1169,11 @@ figcaption {
   font-size: 16px;
   font-weight: 600;
   text-decoration: none;
-  transition: transform .2s, opacity .2s;
+  transition: transform 0.2s, opacity 0.2s;
 }
 
 .nav-link:active {
-  transform: scale(.95);
+  transform: scale(0.95);
 }
 
 .nav-link.last-link {
@@ -1172,7 +1213,7 @@ figcaption {
   left: auto;
   right: 0%;
   overflow: hidden;
-  box-shadow: -20px 0 100px -11px rgba(0, 0, 0, .3);
+  box-shadow: -20px 0 100px -11px rgba(0, 0, 0, 0.3);
 }
 
 .navlink {
@@ -1196,7 +1237,7 @@ figcaption {
 }
 
 .nav-menu-bg {
-  background-color: rgba(255, 255, 255, .5);
+  background-color: rgba(255, 255, 255, 0.5);
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -1205,7 +1246,7 @@ figcaption {
 }
 
 .navlink-text {
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   font-family: DM Serif Display, sans-serif;
 }
 
@@ -1257,13 +1298,13 @@ figcaption {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
   transform-origin: 50% 0;
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   border-radius: 5px;
   justify-content: center;
   align-items: center;
   display: flex;
   position: relative;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, .1), 0 1px 2px rgba(0, 0, 0, .2);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
 }
 
 .portfolio-image.your-website-here {
@@ -1324,7 +1365,7 @@ figcaption {
 .your-website-here {
   width: 100%;
   height: 100%;
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   border-radius: 5px;
   flex-direction: column;
   justify-content: center;
@@ -1333,7 +1374,7 @@ figcaption {
   font-size: 2em;
   line-height: 1.2;
   display: flex;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, .2), 0 1px 3px rgba(0, 0, 0, .1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 .about-heading-wrapper {
@@ -1342,7 +1383,7 @@ figcaption {
 
 .portfolio-item-name {
   z-index: -1;
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   text-align: center;
   transform-style: preserve-3d;
   margin-bottom: 1px;
@@ -1368,7 +1409,7 @@ figcaption {
 
 .overlay {
   opacity: 0;
-  background-color: rgba(21, 32, 43, .5);
+  background-color: rgba(21, 32, 43, 0.5);
   position: absolute;
   top: 0%;
   bottom: 0%;
@@ -1382,7 +1423,14 @@ figcaption {
   grid-column-gap: 0px;
   grid-row-gap: 0px;
   transform-origin: 0 0;
-  background-image: linear-gradient(150deg, #507eb1, #709dc7 10%, #dde9f5 38%, #eaf2f9 48%, #f6f9fc 62%);
+  background-image: linear-gradient(
+    150deg,
+    #507eb1,
+    #709dc7 10%,
+    #dde9f5 38%,
+    #eaf2f9 48%,
+    #f6f9fc 62%
+  );
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -1396,21 +1444,31 @@ figcaption {
 }
 
 .background-block-2 {
-  background-image: linear-gradient(100deg, rgba(243, 251, 255, .4), rgba(243, 251, 255, .15) 20%, rgba(0, 0, 0, 0));
+  background-image: linear-gradient(
+    100deg,
+    rgba(243, 251, 255, 0.4),
+    rgba(243, 251, 255, 0.15) 20%,
+    rgba(0, 0, 0, 0)
+  );
 }
 
 .background-block-2._4 {
-  background-image: linear-gradient(100deg, rgba(0, 0, 0, 0), rgba(0, 119, 204, .05) 40%, rgba(0, 119, 204, .35));
+  background-image: linear-gradient(
+    100deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 119, 204, 0.05) 40%,
+    rgba(0, 119, 204, 0.35)
+  );
 }
 
 .background-block-2._5 {
-  background-image: linear-gradient(100deg, #fff, rgba(255, 255, 255, .01));
+  background-image: linear-gradient(100deg, #fff, rgba(255, 255, 255, 0.01));
 }
 
 .your-brand-here {
   width: 100%;
   height: 100%;
-  color: rgba(0, 0, 0, .87);
+  color: rgba(0, 0, 0, 0.87);
   background-color: #fff;
   border-radius: 20px;
   flex-direction: column;
@@ -1470,11 +1528,11 @@ figcaption {
   align-items: center;
   margin-right: 0;
   padding: 12px 20px;
-  font-size: .9em;
+  font-size: 0.9em;
   line-height: 1;
   text-decoration: none;
-  transition: transform .2s;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, .11), 0 1px 3px rgba(0, 0, 0, .08);
+  transition: transform 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
 }
 
 .button-anchor:hover {
@@ -1530,7 +1588,7 @@ figcaption {
 .headshot {
   width: 180px;
   height: 180px;
-  background-image: url('../images/ali-z-headshot.jpg');
+  background-image: url('../images/ali-photo.jpeg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1556,19 +1614,23 @@ figcaption {
   height: 100%;
 }
 
-html.w-mod-js [data-ix="fade-in-on-load"], html.w-mod-js [data-ix="fade-in-on-load-2"], html.w-mod-js [data-ix="fade-in-on-load-3"], html.w-mod-js [data-ix="fade-in-on-load-4"], html.w-mod-js [data-ix="fade-in-on-load-5"] {
+html.w-mod-js [data-ix='fade-in-on-load'],
+html.w-mod-js [data-ix='fade-in-on-load-2'],
+html.w-mod-js [data-ix='fade-in-on-load-3'],
+html.w-mod-js [data-ix='fade-in-on-load-4'],
+html.w-mod-js [data-ix='fade-in-on-load-5'] {
   opacity: 0;
   transform: translate(0, 10px);
 }
 
-html.w-mod-js [data-ix="fade-in-on-scroll"] {
+html.w-mod-js [data-ix='fade-in-on-scroll'] {
   opacity: 0;
   transform: translate(0, 20px);
 }
 
-html.w-mod-js [data-ix="portfolio-item-flip-down"] {
+html.w-mod-js [data-ix='portfolio-item-flip-down'] {
   opacity: 0;
-  transform: rotateX(-112deg)rotateY(0)rotateZ(0);
+  transform: rotateX(-112deg) rotateY(0) rotateZ(0);
 }
 
 @media screen and (min-width: 1440px) {
@@ -1593,13 +1655,14 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 }
 
 @media screen and (max-width: 991px) {
-  h5, h6 {
+  h5,
+  h6 {
     font-weight: 700;
   }
 
   .navlink-v1 {
     border-bottom-width: 1px;
-    border-bottom-color: rgba(0, 0, 0, .2);
+    border-bottom-color: rgba(0, 0, 0, 0.2);
     margin-right: 0;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1626,10 +1689,11 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .services-grid {
-    grid-template: "."
-                   "."
-                   "."
-                   / 1fr;
+    grid-template:
+      '.'
+      '.'
+      '.'
+      / 1fr;
   }
 
   .service-wrapper {
@@ -1638,10 +1702,11 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .hero-content-wrapper {
     flex-direction: column;
-    grid-template: "."
-                   "."
-                   "."
-                   / 1fr;
+    grid-template:
+      '.'
+      '.'
+      '.'
+      / 1fr;
     align-items: center;
     justify-items: start;
   }
@@ -1658,9 +1723,10 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   .footer-content {
     text-align: center;
     flex-direction: column;
-    grid-template: "."
-                   "."
-                   / 2fr;
+    grid-template:
+      '.'
+      '.'
+      / 2fr;
   }
 
   .case-study-preview {
@@ -1673,18 +1739,28 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .case-study-preview:hover {
     transform: none;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, .25), 0 1px 3px rgba(0, 0, 0, .22);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 1px 3px rgba(0, 0, 0, 0.22);
   }
 
   .case-study-preview.caligenix {
-    background-image: linear-gradient(to top, #fff 36%, rgba(255, 255, 255, .01) 78%), url('../images/caligenix-preview.jpg');
+    background-image: linear-gradient(
+        to top,
+        #fff 36%,
+        rgba(255, 255, 255, 0.01) 78%
+      ),
+      url('../images/caligenix-preview.jpg');
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, contain;
   }
 
   .case-study-preview.tronchat {
-    background-image: linear-gradient(to top, #fff 35%, rgba(255, 255, 255, .01) 80%), url('../images/tronchat-preview.jpg');
+    background-image: linear-gradient(
+        to top,
+        #fff 35%,
+        rgba(255, 255, 255, 0.01) 80%
+      ),
+      url('../images/tronchat-preview.jpg');
     background-position: 0 0, 50%;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -1728,7 +1804,8 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     height: auto;
   }
 
-  .column.tronchat-logo-bg, .column.ui-animation-video-parent {
+  .column.tronchat-logo-bg,
+  .column.ui-animation-video-parent {
     flex: 0 auto;
   }
 
@@ -1757,7 +1834,8 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     min-height: 100%;
   }
 
-  .subcolumn, .subcolumn.tronchat-image-1 {
+  .subcolumn,
+  .subcolumn.tronchat-image-1 {
     flex: 0 auto;
   }
 
@@ -1778,7 +1856,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .spinner {
-    transform: scale(.9);
+    transform: scale(0.9);
   }
 
   .case-study-info-mobile {
@@ -1974,11 +2052,12 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .hero-content-wrapper {
     grid-template-columns: 1fr;
-    grid-template-areas: ".";
+    grid-template-areas: '.';
     margin-bottom: 20px;
   }
 
-  .hero-title-wrapper, .text-field {
+  .hero-title-wrapper,
+  .text-field {
     margin-bottom: 10px;
   }
 
@@ -1993,7 +2072,12 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .case-study-preview.caligenix {
-    background-image: linear-gradient(to top, #fff 35%, rgba(255, 255, 255, .01) 76%), url('../images/caligenix-preview.jpg');
+    background-image: linear-gradient(
+        to top,
+        #fff 35%,
+        rgba(255, 255, 255, 0.01) 76%
+      ),
+      url('../images/caligenix-preview.jpg');
     background-position: 0 0, 50% 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, contain;
@@ -2059,7 +2143,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .spinner {
-    transform: scale(.8);
+    transform: scale(0.8);
   }
 
   .about-header {
@@ -2088,16 +2172,16 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    transition: background-color .2s cubic-bezier(.215, .61, .355, 1);
+    transition: background-color 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
     display: flex;
   }
 
   .menu-button:hover {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .menu-button:active {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   .nav-menu-inline {
@@ -2125,21 +2209,21 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .navlink {
-    border-bottom: 1px solid rgba(133, 133, 133, .5);
+    border-bottom: 1px solid rgba(133, 133, 133, 0.5);
     justify-content: center;
     padding-top: 20px;
     padding-bottom: 20px;
     font-size: 14px;
     line-height: 1em;
-    transition: background-color .2s cubic-bezier(.215, .61, .355, 1);
+    transition: background-color 0.2s cubic-bezier(0.215, 0.61, 0.355, 1);
   }
 
   .navlink:hover {
-    background-color: rgba(255, 255, 255, .1);
+    background-color: rgba(255, 255, 255, 0.1);
   }
 
   .navlink:active {
-    background-color: rgba(255, 255, 255, .2);
+    background-color: rgba(255, 255, 255, 0.2);
   }
 
   .navlink.contact {
@@ -2192,7 +2276,8 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     font-size: 1.2em;
   }
 
-  .color-swipe, .color-swipe-2 {
+  .color-swipe,
+  .color-swipe-2 {
     z-index: 8;
     position: relative;
   }
@@ -2225,7 +2310,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .hero-intro {
     margin-bottom: 20px;
-    font-size: .9em;
+    font-size: 0.9em;
   }
 
   .services-grid {
@@ -2273,7 +2358,12 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .case-study-preview.caligenix {
-    background-image: linear-gradient(to top, #fff 32%, rgba(255, 255, 255, .01) 90%), url('../images/caligenix-preview.jpg');
+    background-image: linear-gradient(
+        to top,
+        #fff 32%,
+        rgba(255, 255, 255, 0.01) 90%
+      ),
+      url('../images/caligenix-preview.jpg');
     background-position: 0 0, 50% 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, contain;
@@ -2286,7 +2376,8 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
 
   .hero-video-transform-wrapper {
     margin-bottom: 350px;
-    transform: scale(.9)perspective(2000px)rotateX(33deg)rotateY(0)rotateZ(0);
+    transform: scale(0.9) perspective(2000px) rotateX(33deg) rotateY(0)
+      rotateZ(0);
   }
 
   .card-back {
@@ -2333,7 +2424,7 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 
   .spinner {
-    transform: scale(.7);
+    transform: scale(0.7);
   }
 
   .case-study-list {
@@ -2391,7 +2482,8 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
     padding: 10px;
   }
 
-  .color-swipe, .color-swipe-2 {
+  .color-swipe,
+  .color-swipe-2 {
     z-index: 3;
     position: relative;
   }
@@ -2423,7 +2515,8 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   }
 }
 
-#w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7da-ee77cf13, #w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7f6-ee77cf13 {
+#w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7da-ee77cf13,
+#w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7f6-ee77cf13 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -2439,28 +2532,43 @@ html.w-mod-js [data-ix="portfolio-item-flip-down"] {
   grid-area: 4 / 1 / 5 / 3;
 }
 
-#w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfc9-f277cf1e, #w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfe5-f277cf1e {
+#w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfc9-f277cf1e,
+#w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfe5-f277cf1e {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
 @media screen and (max-width: 991px) {
-  #w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7da-ee77cf13, #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f7c-ee77cf13, #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f8e-ee77cf13, #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f9f-ee77cf13, #w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfc9-f277cf1e, #w-node-_43880d9b-400e-0f3b-4156-22700d31c7ca-1d77cf1f, #w-node-_43880d9b-400e-0f3b-4156-22700d31c7db-1d77cf1f, #w-node-_43880d9b-400e-0f3b-4156-22700d31c7eb-1d77cf1f {
+  #w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7da-ee77cf13,
+  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f7c-ee77cf13,
+  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f8e-ee77cf13,
+  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f9f-ee77cf13,
+  #w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfc9-f277cf1e,
+  #w-node-_43880d9b-400e-0f3b-4156-22700d31c7ca-1d77cf1f,
+  #w-node-_43880d9b-400e-0f3b-4156-22700d31c7db-1d77cf1f,
+  #w-node-_43880d9b-400e-0f3b-4156-22700d31c7eb-1d77cf1f {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
 
 @media screen and (max-width: 767px) {
-  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f7c-ee77cf13, #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f8e-ee77cf13, #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f9f-ee77cf13, #w-node-_43880d9b-400e-0f3b-4156-22700d31c7ca-1d77cf1f, #w-node-_43880d9b-400e-0f3b-4156-22700d31c7db-1d77cf1f, #w-node-_43880d9b-400e-0f3b-4156-22700d31c7eb-1d77cf1f {
+  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f7c-ee77cf13,
+  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f8e-ee77cf13,
+  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f9f-ee77cf13,
+  #w-node-_43880d9b-400e-0f3b-4156-22700d31c7ca-1d77cf1f,
+  #w-node-_43880d9b-400e-0f3b-4156-22700d31c7db-1d77cf1f,
+  #w-node-_43880d9b-400e-0f3b-4156-22700d31c7eb-1d77cf1f {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
 
 @media screen and (max-width: 479px) {
-  #w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7da-ee77cf13, #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f9f-ee77cf13, #w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfc9-f277cf1e, #w-node-_43880d9b-400e-0f3b-4156-22700d31c7eb-1d77cf1f {
+  #w-node-fa7bf7be-facb-394e-f2b4-48a639f5f7da-ee77cf13,
+  #w-node-_53caccc4-bdf4-8a19-3f08-dce70df37f9f-ee77cf13,
+  #w-node-_3e0a6502-459e-99c1-b14e-6ea144c2dfc9-f277cf1e,
+  #w-node-_43880d9b-400e-0f3b-4156-22700d31c7eb-1d77cf1f {
     grid-area: span 1 / span 1 / span 1 / span 1;
   }
 }
-
 
 @font-face {
   font-family: 'Proxima Nova';
