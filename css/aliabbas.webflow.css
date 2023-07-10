@@ -14,6 +14,8 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.4;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -495,6 +497,11 @@ figcaption {
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
+}
+
+.service-icon {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
 }
 
 .service-icon.invert {
@@ -1636,6 +1643,7 @@ html.w-mod-js [data-ix='portfolio-item-flip-down'] {
 @media screen and (min-width: 1440px) {
   .section.portfolio-section {
     perspective: 1176px;
+    outline: none;
   }
 
   .portfolio-image-link.your-website {
