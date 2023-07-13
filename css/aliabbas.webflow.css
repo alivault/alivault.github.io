@@ -1684,6 +1684,9 @@ html.w-mod-js [data-ix='portfolio-item-flip-down'] {
 
   .section.portfolio-section {
     height: auto;
+  }
+
+  .section.portfolio-section:focus {
     outline: none;
   }
 
