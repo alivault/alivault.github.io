@@ -283,15 +283,11 @@ figcaption {
 .service-icon-wrapper {
   width: 100px;
   height: 100px;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  transform-style: preserve-3d;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
   padding: 20px;
   display: flex;
-  transform: translate3d(0, 0, 20px);
 }
 
 .service-title {
@@ -500,8 +496,7 @@ figcaption {
 }
 
 .service-icon {
-  backface-visibility: hidden;
-  -webkit-backface-visibility: hidden;
+  display: block;
 }
 
 .service-icon.invert {
