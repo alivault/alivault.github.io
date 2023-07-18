@@ -218,6 +218,10 @@ figcaption {
   display: flex;
 }
 
+.section.portfolio-section:focus {
+  outline: none;
+}
+
 .container {
   z-index: 1;
   width: 100%;
@@ -1684,10 +1688,6 @@ html.w-mod-js [data-ix='portfolio-item-flip-down'] {
 
   .section.portfolio-section {
     height: auto;
-  }
-
-  .section.portfolio-section:focus {
-    outline: none;
   }
 
   .hero-intro {
